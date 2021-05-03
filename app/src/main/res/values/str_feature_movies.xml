@@ -1,0 +1,5 @@
+<resources>
+    <string name="stocks_screen_title">Stocks</string>
+    <string name="stock_details_screen_title">Stock Details</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Stocks Kotlin</string>
+
+    <string name="action_refresh">Refresh</string>
+
+    <string name="failure_network_connection">No Network Connection.</string>
+    <string name="failure_server_error">Server Error</string>
+    <string name="failure_stocks_list_unavailable">Stocks Unavailable.</string>
+    <string name="failure_stock_non_existent">Stock Not Existent.</string>
+    <string name="stock_details_name_label">Name</string>
+    <string name="stock_details_name_value">name_455</string>
+    <string name="stock_details_hot_label">Hot</string>
+    <string name="stock_details_hot_value">1</string>
+    <string name="stock_details_ric_code_label">Ric Code</string>
+    <string name="stock_details_ric_code_value">566056606</string>
+    <string name="stock_details_category_label">Category</string>
+    <string name="stock_details_category_value">BUILDING</string>
+    <string name="no_content">No content</string>
+</resources>

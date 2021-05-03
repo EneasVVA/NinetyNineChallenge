@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TableRowStockDetails">
+
+            <TextView
+                android:id="@+id/tvStockLabelName"
+                style="@style/TextViewStockLabel"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stock_details_name_label" />
+
+            <TextView
+                android:id="@+id/tvStockValueName"
+                style="@style/TextViewStockValue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="@string/stock_details_name_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TableRowStockDetails">
+
+            <TextView
+                android:id="@+id/tvStockLabelHot"
+                style="@style/TextViewStockLabel"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stock_details_hot_label" />
+
+            <TextView
+                android:id="@+id/tvStockValueHot"
+                style="@style/TextViewStockValue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="@string/stock_details_hot_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TableRowStockDetails">
+
+            <TextView
+                android:id="@+id/tvStockLabelRicCode"
+                style="@style/TextViewStockLabel"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stock_details_ric_code_label" />
+
+            <TextView
+                android:id="@+id/tvStockValueRicCode"
+                style="@style/TextViewStockValue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="@string/stock_details_ric_code_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/TableRowStockDetails">
+
+            <TextView
+                android:id="@+id/tvStockLabelCategory"
+                style="@style/TextViewStockLabel"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stock_details_category_label" />
+
+            <TextView
+                android:id="@+id/tvStockValueCategory"
+                style="@style/TextViewStockValue"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="@string/stock_details_category_value" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
